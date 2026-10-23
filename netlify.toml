@@ -1,7 +1,7 @@
 # Netlify settings. There is no build step: Netlify publishes the ready-made site/ folder.
 # Every commit to the main branch triggers a new production deploy.
 [build]
-  publish = "site"
+  publish = "."
 
 [[headers]]
   for = "/*"
